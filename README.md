@@ -2,7 +2,7 @@
 
 ## 📖 Giới thiệu
 
-Dự án này là một trang web bán linh kiện điện tử được xây dựng bằng Laravel. Nó bao gồm các chức năng như quản lý sản phẩm, giỏ hàng, đặt hàng và thanh toán.
+Dự án này là một trang web bán linh kiện điện tử được xây dựng bằng Laravel.
 
 ---
 
@@ -25,10 +25,10 @@ Sau khi cài đặt XAMPP, hãy đảm bảo rằng Apache và MySQL đã đư�
 ### 3️⃣ Clone dự án về thư mục htdocs
 
 ```sh
-cd C:/xampp/htdocs
+đi đến thư mục xampp/htdocs
 
-git clone https://github.com/your-repo/your-project.git
-cd your-project
+git clone https://github.com/HungTuLenh/SigmaTech.git
+cd SigmaTech
 ```
 
 ### 4️⃣ Cài đặt các package PHP
@@ -37,7 +37,7 @@ cd your-project
 composer update
 ```
 
-### 5️⃣ Tạo file cấu hình môi trường
+### 5️⃣ Tạo file cấu hình môi trường (trong trường hợp không thấy file .env, nếu đã thấy file .env thì bỏ qua bước này)
 
 ```sh
 cp .env.example .env
@@ -49,9 +49,9 @@ Chỉnh sửa file `.env` để thiết lập kết nối database:
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=my_database_name
+DB_DATABASE=sigmatech
 DB_USERNAME=root
-DB_PASSWORD=
+DB_PASSWORD=''
 ```
 
 ### 6️⃣ Tạo database và chạy migration
@@ -70,12 +70,10 @@ Mở trình duyệt và truy cập: `http://127.0.0.1:8000`
 
 ---
 
-## 🖼️ Hình ảnh giao diện
-
-_Dưới đây là một số hình ảnh về giao diện của website:_
+## 🖼️ Hình ảnh giao diện cùng các chức năng chính
 
 📌 **Trang chủ:**
-![Trang chủ](https://via.placeholder.com/800x400)
+![Trang chủ](https://github.com/dinhthanhnam/SigmaTech/issues/8#issue-2834679826)
 
 📌 **Giỏ hàng:**
 ![Giỏ hàng](https://via.placeholder.com/800x400)
@@ -85,23 +83,12 @@ _Dưới đây là một số hình ảnh về giao diện của website:_
 
 ---
 
-## 🔥 Chức năng chính
-
-✅ **Quản lý sản phẩm**: Xem danh sách sản phẩm, tìm kiếm, lọc theo danh mục.  
-✅ **Giỏ hàng**: Thêm, xóa sản phẩm vào giỏ hàng, cập nhật số lượng.  
-✅ **Đặt hàng**: Điền thông tin giao hàng, chọn phương thức thanh toán.  
-✅ **Thanh toán**: Hỗ trợ thanh toán qua chuyển khoản ngân hàng.  
-✅ **Quản lý đơn hàng**: Xem lịch sử đơn hàng, trạng thái đơn hàng.  
-✅ **Hệ thống đăng nhập & đăng ký**: Đăng ký tài khoản, đăng nhập và quản lý thông tin cá nhân.
-
----
-
 ## 🎯 Liên hệ & Hỗ trợ
 
 Nếu bạn gặp bất kỳ vấn đề nào hoặc có góp ý, vui lòng tạo một issue trên GitHub hoặc liên hệ qua email.
 
-📧 Email: support@example.com  
-🌐 GitHub: [https://github.com/your-repo](https://github.com/your-repo)
+📧 Email: hungnd.devv@gmail.com
+🌐 GitHub: [https://github.com/HungTuLenh](https://github.com/HungTuLenh)
 
 ---
 
